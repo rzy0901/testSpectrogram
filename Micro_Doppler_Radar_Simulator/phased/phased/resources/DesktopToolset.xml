@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012-2017 The MathWorks, Inc. -->
+<!-- THIS FILE CONTRIBUTES TO THE MATLAB APPS GALLERY WHICH IS CAREFULLY CURATED -->
+<!-- ADDITIONS AND CHANGES MUST GO THROUGH A DESIGN REVIEW PROCESS WITH SENIOR MANGEMENT -->
+<!-- THIS PROCESS IS MANAGED BY THE MATLAB DESKTOP TEAM. CONSULT THE TOOLSTRIP GUIDELINES TO GET STARTED -->
+<toolset id="phased_toolset" message_catalog="phased:desktop">
+    <tool id="arrayapp">
+        <icon filename="array_analysis_app_16.png" path="." />
+        <icon filename="array_analysis_app_24.png" path="." />
+        <callback>sensorArrayAnalyzer</callback>
+        <parent_tool id="signal_products" toolset_id="apps_toolset" />
+    </tool>
+    <tool id="radareqapp">
+        <icon filename="radar_equation_app_16.png" path="." />
+        <icon filename="radar_equation_app_24.png" path="." />
+        <callback>radarEquationCalculator</callback>
+        <parent_tool id="signal_products" toolset_id="apps_toolset" />
+    </tool>
+    <tool id="sonareqapp">
+        <icon filename="sonar_equation_app_16.png" path="." />
+        <icon filename="sonar_equation_app_24.png" path="." />
+        <callback>sonarEquationCalculator</callback>
+        <parent_tool id="signal_products" toolset_id="apps_toolset" />
+    </tool>
+    <tool id="waveformapp">
+        <icon filename="waveform_analysis_app_16.png" path="." />
+        <icon filename="waveform_analysis_app_24.png" path="." />
+        <callback>radarWaveformAnalyzer</callback>
+        <parent_tool id="signal_products" toolset_id="apps_toolset" />
+    </tool>
+</toolset>

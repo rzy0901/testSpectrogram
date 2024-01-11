@@ -1,0 +1,14 @@
+paramFMCWRSA.Fs = 150e6;
+paramFMCWRSA.T = 5.5*400/3e8;
+paramFMCWRSA.ppow = 0.00316227766016838;
+paramFMCWRSA.TxGain = 36.0042142909402;
+paramFMCWRSA.RadarVel = [ 65*1600/3600; 0; 0];
+paramFMCWRSA.RadarPos = [0;0;0];
+paramFMCWRSA.Fc = 77e9;
+paramFMCWRSA.RCS = [100 100 100];
+paramFMCWRSA.CarVel = [70*1600/3600 80*1600/3600 55*1600/3600;0 0 0;0 0 0];
+paramFMCWRSA.CarPos = [80 40 20;2 -2 0;0 0 0];
+paramFMCWRSA.C = 3e8;
+paramFMCWRSA.NF = 4.5;
+paramFMCWRSA.RxGain = 42.0042142909402;
+paramFMCWRSA.lambda = paramFMCWRSA.C/paramFMCWRSA.Fc;
