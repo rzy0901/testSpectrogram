@@ -26,6 +26,13 @@ Detailed documentation, source codes, and paper information will be coming soon 
 
 ## Codes Overview
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/rzy0901/testSpectrogram.git --recursive
+```
+Alternatively, you can visit the repositories listed in [.gitmodules](.gitmodules) and download each one individually as a zip file.
+
 ### Codes for "SDP3" and "PBAH" papers
 
 + [Micro_Doppler_Radar_Simulator](./Micro_Doppler_Radar_Simulator)
@@ -36,11 +43,12 @@ Detailed documentation, source codes, and paper information will be coming soon 
 
 ### Codes for "CASTER" paper
 
-+ [mediapipe_spectrogram](https://github.com/rzy0901/mediapipe_spectrogram) (Not open-sourced yet)
++ [mediapipe_spectrogram](https://github.com/rzy0901/mediapipe_spectrogram)
   + Primitive-based wireless channel simulation for hand gesture recognition.
   + Camera coordinate 3D hand keypoints extraction based on a monocular camera, using [mediapipe](https://github.com/google/mediapipe) and [opencv](https://github.com/opencv/opencv).
-+ [mediapipe_spectrogram_classification](https://github.com/Jcq242818/CASTER/tree/retraining2) (Not open-sourced yet) and [RxRealTime_GUI_rzy](https://github.com/rzy0901/RxRealTime_GUI_rzy/tree/master)
++ [CASTER_classification](https://github.com/rzy0901/CASTER_classification) and [RxRealTime_GUI_rzy](https://github.com/rzy0901/RxRealTime_GUI_rzy/tree/master)
   + "Simulation-to-reality" hand gesture recognition based on ResNet18.
+  + Transfer learning based on the simulated dataset and real-world dataset.
   + Real-time gesture recognition based on millimeter-wave passive sensing and communication systems, using a model trained by a simulated dataset.
 
 ## Cite this repository

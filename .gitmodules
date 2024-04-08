@@ -1,13 +1,12 @@
 [submodule "mediapipe_spectrogram"]
 	path = mediapipe_spectrogram
 	url = https://github.com/rzy0901/mediapipe_spectrogram.git
-[submodule "mediapipe_spectrogram_classification"]
-	path = mediapipe_spectrogram_classification
-	url = https://github.com/Jcq242818/mediapipe_spectrogram_classification.git
-	branch = retraining2
 [submodule "testZED"]
 	path = testZED
 	url = https://github.com/rzy0901/testZED.git
 [submodule "RxRealTime_GUI_rzy"]
 	path = RxRealTime_GUI_rzy
 	url = https://github.com/rzy0901/RxRealTime_GUI_rzy
+[submodule "CASTER_classification"]
+	path = CASTER_classification
+	url = https://github.com/rzy0901/CASTER_classification
