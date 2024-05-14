@@ -1,19 +1,21 @@
 # testSpectrogram
 
+**See THREE video demos at <https://lasso-sustech.github.io/CASTER> or <http://lasso.eee.sustech.edu.cn/caster/> for a quick understanding of our efforts!**
+
 <table>
 <thead>
   <tr>
-    <th><a href="https://ieeexplore.ieee.org/abstract/document/10233699">SDP3 (IOTJ)</a></th>
+    <th><a href="https://ieeexplore.ieee.org/abstract/document/10233699">SDP3 IOTJ)</a></th>
     <th><a href="https://ieeexplore.ieee.org/abstract/document/9593198">PBAH (SPAWC)</a></th>
-    <th><a href="https://arxiv.org/pdf/2311.07169.pdf">CASTER (arxiv preprint)</a></th>
-    <th><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161">Video demo on bilibili (chinese)</a></th>
+    <th><a href="https://doi.org/10.1109/ojcoms.2024.3398016">CASTER (OJ-COMS, early access)</a></th>
+    <!-- <th><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161">Video demo on bilibili (chinese)</a></th> -->
   </tr>
 </thead>
 <tbody>
   <tr>
     <td colspan="2"><img src="./README.assets/DAHC.png"></td>
     <td><img src="./README.assets/channel_simulation.png"></td>
-    <td><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161"><img src="./README.assets/image-20231116131857577.png"></a></td>
+    <!-- <td><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161"><img src="./README.assets/image-20231116131857577.png"></a></td> -->
   </tr>
 </tbody>
 </table>
@@ -22,9 +24,10 @@
 
 [testSpectrogram](https://github.com/rzy0901/testSpectrogram) is an open-source platform for wireless channel simulation, human/hand pose extraction, gesture spectrogram generation, and real-time gesture recognition based on millimeter-wave passive sensing and communication systems.
 
-Detailed documentation, source codes, and paper information will be coming soon (maybe after paper acceptance).
+<!-- Detailed documentation, source codes, and paper information will be coming soon (maybe after paper acceptance). -->
+Since this work is experiment-oriented, code might not be 100% consistent with our real implementation. But the gerneral core idea is the same. And we will keep making improvements and updating the code for clearer understanding. 
 
-## Codes Overview
+## Code Overview
 
 ### Clone the Repository
 
@@ -33,7 +36,7 @@ git clone https://github.com/rzy0901/testSpectrogram.git --recursive
 ```
 Alternatively, you can visit the repositories listed in [.gitmodules](.gitmodules) and download each one individually as a zip file.
 
-### Codes for "SDP3" and "PBAH" papers
+### Code for "SDP3" and "PBAH" papers
 
 + [Micro_Doppler_Radar_Simulator](./Micro_Doppler_Radar_Simulator)
   + Data driven hybrid channel model simulation using a Boulic Human walking model.
@@ -41,7 +44,7 @@ Alternatively, you can visit the repositories listed in [.gitmodules](.gitmodule
   + Simple Mocap-based channel simulation example.
   + Camera coordinate 3D human keypoints extraction based on the depth camera ZED 2i, using [zed-sdk](https://github.com/stereolabs/zed-sdk).
 
-### Codes for "CASTER" paper
+### Code for "CASTER" paper
 
 + [mediapipe_spectrogram](https://github.com/rzy0901/mediapipe_spectrogram)
   + Primitive-based wireless channel simulation for hand gesture recognition.
@@ -75,14 +78,17 @@ Alternatively, you can visit the repositories listed in [.gitmodules](.gitmodule
 ```
 
 ```
-@misc{ren2023caster,
-      title={CASTER: A Computer-Vision-Assisted Wireless Channel Simulator for Gesture Recognition}, 
-      author={Zhenyu Ren and Guoliang Li and Chenqing Ji and Chao Yu and Shuai Wang and Rui Wang},
-      year={2023},
-      eprint={2311.07169},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+//Early access article
+@ARTICLE{ren2024caster,
+  author={Ren, Zhenyu and Li, Guoliang and Ji, Chenqing and Yu, Chao and Wang, Shuai and Wang, Rui},
+  journal={IEEE Open Journal of the Communications Society}, 
+  title={CASTER: A Computer-Vision-Assisted Wireless Channel Simulator for Gesture Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Videos;Wireless communication;Wireless sensor networks;Gesture recognition;Channel impulse response;Transmitters;Training;Wireless hand gesture recognition;channel model;simulation-to-reality inference},
+  doi={10.1109/OJCOMS.2024.3398016}}
 ```
 
 ## Authors
