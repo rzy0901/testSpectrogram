@@ -5,7 +5,7 @@
 <table>
 <thead>
   <tr>
-    <th><a href="https://ieeexplore.ieee.org/abstract/document/10233699">SDP3 IOTJ)</a></th>
+    <th><a href="https://ieeexplore.ieee.org/abstract/document/10233699">SDP3 (IOTJ)</a></th>
     <th><a href="https://ieeexplore.ieee.org/abstract/document/9593198">PBAH (SPAWC)</a></th>
     <th><a href="https://doi.org/10.1109/ojcoms.2024.3398016">CASTER (OJ-COMS, early access)</a></th>
     <!-- <th><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161">Video demo on bilibili (chinese)</a></th> -->
