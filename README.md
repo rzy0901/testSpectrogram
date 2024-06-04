@@ -7,7 +7,7 @@
   <tr>
     <th><a href="https://ieeexplore.ieee.org/abstract/document/10233699">SDP3 (IOTJ)</a></th>
     <th><a href="https://ieeexplore.ieee.org/abstract/document/9593198">PBAH (SPAWC)</a></th>
-    <th><a href="https://doi.org/10.1109/ojcoms.2024.3398016">CASTER (OJ-COMS, early access)</a></th>
+    <th><a href="https://doi.org/10.1109/ojcoms.2024.3398016">CASTER (OJ-COMS)</a></th>
     <!-- <th><a href="https://www.bilibili.com/video/BV14G411y7nn/?spm_id_from=333.999.0.0&vd_source=acf5c2e5837a698024101aaf6bf0d161">Video demo on bilibili (chinese)</a></th> -->
   </tr>
 </thead>
@@ -78,17 +78,17 @@ Alternatively, you can visit the repositories listed in [.gitmodules](.gitmodule
 ```
 
 ```
-//Early access article
 @ARTICLE{ren2024caster,
   author={Ren, Zhenyu and Li, Guoliang and Ji, Chenqing and Yu, Chao and Wang, Shuai and Wang, Rui},
   journal={IEEE Open Journal of the Communications Society}, 
   title={CASTER: A Computer-Vision-Assisted Wireless Channel Simulator for Gesture Recognition}, 
   year={2024},
-  volume={},
+  volume={5},
   number={},
-  pages={1-1},
-  keywords={Videos;Wireless communication;Wireless sensor networks;Gesture recognition;Channel impulse response;Transmitters;Training;Wireless hand gesture recognition;channel model;simulation-to-reality inference},
-  doi={10.1109/OJCOMS.2024.3398016}}
+  pages={3185-3195},
+  doi={10.1109/OJCOMS.2024.3398016},
+  ISSN={2644-125X},
+  month={},}
 ```
 
 ## Authors
