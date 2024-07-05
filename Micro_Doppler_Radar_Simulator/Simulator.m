@@ -137,7 +137,8 @@ function Simulator(v,ped_height,rho,Pedestrian_heading,Pedestrian_pos,Radar_x,Ra
         rk = 2:18;
         xdr = uxd(:,rk)*sxd(rk,:)*vxd';
         clf
-        [S,F,T,P] = spectrogram(sum(xdr),kaiser(128,10),120,256,1/Tsamp,'centered','yaxis');
+%         [S,F,T,P] = spectrogram(sum(xdr),kaiser(128,10),120,256,1/Tsamp,'centered','yaxis');
+        spectrogram(sum(xdr),kaiser(128,10),120,256,1/Tsamp,'centered','yaxis');
         xlabel('Time (secs)','Fontsize',14);
         ylabel('Frequency (Hz)','Fontsize',14);
         colormap('jet');
